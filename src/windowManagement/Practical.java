@@ -9,6 +9,7 @@ public class Practical {
 		// TODO Auto-generated method stub
      System.setProperty("webdriver.chrome.driver","./server/chromedriver.exe");
      WebDriver driver=new ChromeDriver();
+     
      //Maximize window
      driver.manage().window().maximize();
      
